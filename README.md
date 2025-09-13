@@ -24,5 +24,5 @@ The site also includes a contact form and links to my social media accounts.
 
 ## 📬 Contact
 For inquiries, collaborations, or appointments:  
-📧 Email: your-email@example.com  
-📍 Location: Your City, Philippines  
+📧 Email: amsasa85@gmail.com  
+📍 Location: Manila, Philippines  
