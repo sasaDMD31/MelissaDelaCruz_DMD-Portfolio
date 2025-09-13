@@ -1,0 +1,724 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Melissa Dela Cruz - Doctor of Dental Medicine</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+	<style>
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Adjust the gap between items */
+    }
+
+    .portfolio-item {
+        flex: 1 0 200px; /* Adjust the width of each item */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+	
+	.image-container {
+            position: relative;
+            width: 300px; /* Adjust the width as needed */
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .image-container:hover img {
+        transform: scale(1.5); /* Adjust the scale value as needed */
+    }
+   
+   /*MAPS */
+   .map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Keeps 16:9 ratio (change to 75% for 4:3) */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px; /* optional rounded corners */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*ABOUT IMAGE*/
+.about-image {
+  background-size: cover;     /* Image covers entire area */
+  background-position: center; /* Keeps image centered */
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio – adjust as needed */
+}
+
+/*CONTACT FORM*/
+.contact {
+  padding-top: 27px !important;  /* force push down */
+}
+
+
+</style>
+	
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+						<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
+						<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+						<a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
+						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+					</div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated fadeInDown">
+                    <span style="font-size: 90px; color: #222f3e">M<span style="color:#8c7ae6; font-size: 90px">e</span>lissa</span><br/>
+                    <span style="font-size: 70px">Dela</span>
+					<span style="color:#ff9ff3; font-size: 70px">Cruz</span>
+                  </h1><!-- Title -->
+                  <h3 style="color:#8c7ae6" class="animated fadeInUp delay-05s"><span class="rotate">Doctor of Dental Medicine</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section style="background-color:#8c7ae6" class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">Professional <span style="color:#ff9ff3">background</span></h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p>I am highly driven dental professional
+ and dedicated about dental education
+ where I can lend my knowledge in the
+ field of dentistry, I am a
+ motivated team player wi ling to
+ undergo mentorship and learn from
+ the industry to become one in the
+ future. I am hard-working and
+ knowledgeable. Aiming to leverage
+ academic experience. I can be relied
+ upon to help your company achieve
+ its goals</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">I do amazing things for my patients</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item">
+                    <div class="icon">
+					  <img style="height:70px" src="img/layer.png" alt="Avatar">
+                    </div>
+                    <h2>Dental Cleaning (Prophylaxis):</h2><!-- Title -->
+                    <p>This is a routine procedure where a dental hygienist or dentist removes plaque, tartar, and stains from teeth. It helps prevent cavities, gingivitis, and periodontal disease.</p><!-- Description -->
+                  </div>
+          <!-- Service Box 3 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <img style="height:70px" src="img/location.png" alt="Avatar">
+                    </div>
+                    <h2>Tooth Extraction:</h2><!-- Title -->
+                    <p>Tooth extraction is the removal of a tooth from its socket in the bone. This procedure is necessary when a tooth is severely damaged, decayed, or causing overcrowding. Extractions can be simple or surgical, depending on whether the tooth is visible or impacted (stuck below the gum line). After extraction, proper care is needed to ensure healing and prevent complications such as infection.</p><!-- Description -->
+                  </div>
+			<!-- Service Box 2 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+					  <img style="height:70px" src="img/layer.png" alt="Avatar">
+                    </div>
+                    <h2>Filling Cavities:</h2><!-- Title -->
+                    <p>When a tooth has decay (a cavity), a dentist removes the decayed portion and fills the area with a filling material, such as amalgam, composite resin, or gold, to restore the tooth's integrity and function.</p><!-- Description -->
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+		<div class="container-fluid">
+		    <!-- About 1 -->
+			<div style="background-color:#8c7ae6" class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+  <div class="about-image" style="background-image:url(img/about1.jpg)"></div>
+</div>
+
+				<div class="col-md-6 about-text">
+					<h6>Dentures</h6><!-- headline-->
+					<p>This picture was taken back in my college days in Dentistry. I had the chance to work on a patient who needed dentures. It was such a joyful experience for me—everything I worked hard for was worth it, and I was also able to help someone in need.</p><br><!-- About Text 1 -->
+					<!--<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
+				</div>
+			</div>
+			<!-- About 2 -->
+			<div class="row">
+				<div class="col-md-6 about-text">
+					<h6  style="color:#ff9ff3">Tooth Extraction</h6><!-- Headline -->
+					<p style="color:#8395a7">During my college days in Dentistry, I had the opportunity to perform a tooth extraction. It was an unforgettable learning experience that not only strengthened my skills but also gave me the chance to make a difference in someone’s life.</p><br><!-- About Text 2 -->
+					<!--<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
+				</div>
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about2.jpg)"></div><!-- about image 2 -->
+				</div>
+			</div>
+			<!-- About 3 -->
+			<div style="background-color:#8c7ae6" class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about3.jpg)"></div><!-- about image 3 -->
+				</div>
+				<div class="col-md-6 about-text">
+					<h6>Filling Cavities</h6><!-- Headline-->
+					<p>Back in my college Dentistry days, I was able to perform cavity fillings for patients. It was such a rewarding experience to apply my knowledge in a real setting while helping restore someone’s smile and confidence.</p><br><!-- About Text 3 -->
+					<!--<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->					
+				</div>
+			</div>
+		</div>
+		<!-- ==========================
+        ABOUT SECTION END
+        =========================== -->	
+
+		
+		
+		
+		<!-- ==========================
+        PORTFOLIO SECTION
+    =========================== -->
+        <section style="center" class="swag text-center" id="portfolio">
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                My <span style="color:#8c7ae6">Journey</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+
+<div class="container1">
+        <!-- PORTFOLIO ITEM 1 -->
+        <div class="portfolio-item">
+            <div class="image-container" >
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p1.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+        <!-- PORTFOLIO ITEM 2 -->
+        <div class="portfolio-item">
+            <div class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p2.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+		
+		<div class="portfolio-item">
+            <div class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p3.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+		
+		<div class="portfolio-item">
+            <div class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p4.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+		
+		<div class="portfolio-item">
+            <div class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p5.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+		
+		<!--<div class="portfolio-item">
+            <div  class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p6.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+		
+		<div class="portfolio-item">
+            <div class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p7.jpg" alt="My Photo"></a>
+            </div>
+        </div>-->
+		
+		<div class="portfolio-item">
+            <div class="image-container">
+                <a data-lightbox="roadtrip" title="My Photo"><img style="max-width: 100%; height: auto; display: block;" class="grayscale" src="img/portfolio/p8.jpg" alt="My Photo"></a>
+            </div>
+        </div>
+        <!-- Additional portfolio items can be added below in a similar manner -->
+    </div>
+
+		<!-- ==========================
+        PORTFOLIO SECTION END
+        =========================== -->
+			
+
+
+			
+		<!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+		<div style="background-color:#8c7ae6" class="spacer-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div  class="col-md-12">
+                <a id="hireme" href="index.html#contact" class="outline-btn">hire me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		<!-- ==========================
+        CUSTOM SPACER END
+        =========================== -->
+		
+		
+
+    <!-- ==========================
+        BLOG SECTION 
+        =========================== -->
+    <section class="text-center section-padding" id="blog">
+          <div class="container">
+        <!-- Headline -->
+        <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">My <span>little</span> blog</h1>
+              </div>
+            </div><br><br>
+      
+      <!-- Blog Slider -->
+            <div class="row">
+              <div id="blogSlider">
+                <ul class="slides">
+                  <li>
+            <!-- Blog Entry 1 -->
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="image-container">
+                          <img style="max-width: 100%; height: auto; display: block;" src="img/t4.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                        </div>
+                      </div>
+            <br>
+                      <h2>Sample1</h2><!-- Headline -->
+                      <p>Looking back on my college days in Dentistry, I’m reminded of the many hands-on experiences that shaped not only my skills but also my passion for helping others.</p><!-- Description-->
+                    </div>
+          <!-- Blog Entry 2 -->
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="image-container">
+                          <img style="max-width: 100%; height: auto; display: block;" src="img/t6.jpg" class="grayscale"  alt="Blog Item"><!-- Blog Image -->
+                        </div>
+                      </div>
+            <br>
+                      <h2></h2><!-- Headline -->
+                      <p>One of my most memorable moments was when I had the chance to create dentures for a patient. Seeing the joy on their face after regaining their smile was priceless. It made me realize that every late night of studying and every challenge I faced was worth it.</p><!-- Description -->
+                    </div>
+          <!-- Blog Entry 3 -->
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="image-container">
+                          <img style="max-width: 100%; height: auto; display: block;" src="img/t5.jpg"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                        </div>
+                      </div>
+            <br>
+                      <h2>Sample2</h2><!-- Headline -->
+                      <p>I also had the opportunity to perform tooth extractions — an experience that taught me precision, patience, and the importance of building trust with patients. Each procedure was more than just a clinical practice; it was about easing someone’s pain and giving them comfort.</p><!-- Description-->
+                    </div>
+                  </li>
+                  <li>
+            <!-- Blog Entry 4 -->
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="image-container">
+                          <img style="max-width: 100%; height: auto; display: block;" src="img/f3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                        </div>
+                      </div>
+            <br>
+                      <h2>BEFORE</h2><!-- Headline -->
+                      <p>Another fulfilling experience was filling cavities. What may seem like a small dental procedure meant so much to the patients, as it restored their confidence and improved their quality of life.</p><!-- Description -->
+                    </div>
+          <!-- Blog Entry 5 -->
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="image-container">
+                          <img style="max-width: 100%; height: auto; display: block;" src="img/f1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                        </div>
+                      </div>
+            <br>
+                      <h2></h2>
+                      <p>Through all these experiences — whether it was making dentures, performing extractions, or filling cavities — I discovered that dentistry is as much about compassion and service as it is about clinical skill. Each patient entrusted me with their care, and in return, I gave not just my knowledge, but also patience, kindness, and understanding.</p>
+                    </div>
+          <!-- Blog Entry 6 -->
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="image-container">
+                          <img style="max-width: 100%; height: auto; display: block;" src="img/f2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                        </div>
+                      </div>
+            <br>
+                      <h2>AFTER</h2><!-- Headline -->
+                      <p>These moments remind me that dentistry goes beyond textbooks and instruments. It’s about compassion, service, and making a difference in people’s lives — one smile at a time.</p><!-- Description -->
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- ==========================
+        BLOG SECTION END
+        =========================== -->
+    
+        
+		
+		<!-- ==========================
+        CLIENT SECTION 
+        =========================== -->
+		<div class="container-fluid">
+			<div style="background-color:#8c7ae6;" class="row color-bg">
+				<!-- Left Image -->
+				<div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
+					<div class="about-image" style="background-image:url(img/c1.jpg)"></div>
+				</div>
+				<!-- Clients / Testimonials -->
+				<div style="background-color:#8c7ae6;" class="col-md-6 nopadding about-text">
+				<h6>Journey</h6>
+					<div id="clientSlider">
+					   <ul class="slides">
+					       <li><p>This photo captures one of the most memorable parts of my dentistry journey — working alongside my classmates and future colleagues during our clinical years. Wearing our uniforms wasn’t just about looking professional; it symbolized discipline, responsibility, and our shared commitment to patient care. <br>	</p></li>
+						   <li><p>These moments remind me of the value of teamwork in dentistry. Each of us brought our unique strengths, supporting one another as we handled real patients, from extractions and fillings to prosthesis work. It was during these times that I learned dentistry is not only a science but also a service rooted in compassion and collaboration. <br>	</p></li>
+						  <li><p>This experience prepared me to face the real world of dentistry with both confidence and empathy — knowing that behind every smile we restore is a story of trust and care. <br>	</p>	</li>
+					   </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ==========================
+        CLIENTS SECTION END
+        =========================== -->
+		
+		
+		
+		
+		
+		<!-- ==========================
+        NEWSLETTER SECTION 
+        =========================== -->
+        <section>
+		<div class="container-fluid">
+				<div style="background-color:#8c7ae6;" class="row color-bg">
+				    <div class="col-md-6 nopadding subscribe text-center">
+					 <h1><i class="fa fa-paper-plane"></i><span>Subscribe our Newsletter</span></h1><!-- Heading -->
+                     <form action="index.html#">
+                       <input type="text" name="" value="" placeholder="" required><!-- E-Mail -->
+                       <input id="hireme" type="submit" name="" value="Send"><!-- Submit Button -->
+                    </form>   
+					</div>
+					<div class="col-md-6 nopadding features-intro-img">
+						 <div class="about-image" style="background-image:url(img/c2.jpg)"></div><!-- Right Image -->
+					</div>
+				</div>
+			</div>
+        </section>
+		<!-- ==========================
+        NEWSLETTER SECTION END
+        =========================== -->
+
+		
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a id="hireme" href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Drop <span style="color:#8c7ae6;">me</span> a line</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- Adress Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <p style="color:#8c7ae6;">Rizal Nueva Ecija</p>
+                </div>
+              </div>
+			  <!-- Phone Number Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p style="color:#8c7ae6;">+9054846817</p>
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p><a style="color:#8c7ae6;" href="index.html#">amsasa85@gmail.com </a></p>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+			  <!-- Google Maps (Change your Settings below) -->
+			  <div class="col-md-6">
+			    <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9996484669673!2d120.99276487484413!3d14.599095777114059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9fa6ee6f969%3A0xeea44b8db7ea74f3!2sBevene%20Residences!5e0!3m2!1sen!2sph!4v1757738589035!5m2!1sen!2sph" 
+      allowfullscreen 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+			  </div>
+			  <!-- Contact Form -->
+			  <div class="col-md-6 contact" style="padding-top:50px;">
+			     <form role="form">
+				            <!-- Name -->
+                            <div class="row">
+                                <div class="col-md-6">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+							<!-- Message Area -->
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                            </div>
+							<!-- Subtmit Button -->
+                            <button id="hireme" style="background-color:#8c7ae6;"  type="submit" class="btn btn-send">
+                                Send message
+                            </button>
+                        </form>
+			  </div>
+			</div>
+			<br>
+			<!-- Social Buttons - use font-awesome, past in what you want -->
+            <div class="row">
+  <div class="col-md-12">
+    <ul class="social-buttons">
+      <li>
+        <a id="hireme" href="https://www.facebook.com/sassyy.dc" class="social-btn">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a id="hireme" href="https://www.instagram.com/tootth.lesss?igsh=MmRjdjlzejk5eG9m" class="social-btn">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a id="hireme" href="img/Melissa_DC_CV.pdf" class="social-btn">
+          <i class="fa fa-download"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2024 
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- GOOGLE MAPS DATA
+    <script type="text/javascript">
+    // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+    
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
+                
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(15.707299725439942, 121.1050140843802), // New York 
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('googlemaps');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+	
+    </script> -->
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
+    </body>
+</html>
